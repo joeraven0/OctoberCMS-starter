@@ -1,0 +1,9 @@
+==
+<!-- Nav -->
+<nav>
+<ul class="nav navbar-nav">
+                <li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
+                <li class="{% if this.page.id == 'page1' %}active{% endif %}"><a href="{{ 'page1'|page }}">Page 1</a></li>
+                <li class="{% if this.page.id == 'page2' %}active{% endif %}"><a href="{{ 'page2'|page }}">Page 2</a></li>
+            </ul>
+</nav>
